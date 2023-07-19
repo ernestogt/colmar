@@ -1,0 +1,487 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* header*/
+
+.container {
+    flex-direction: row;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    padding: 0 24px 0 24px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    flex-wrap: wrap;
+
+}
+
+.about {
+    margin-right: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about a {
+    text-decoration: none;
+    color: rgb(9, 10, 2);
+    transition: color 0.3s, background-color 0.3s;
+    font-size: 16px;
+    margin-left: 8px;
+
+
+}
+
+.about a:hover {
+    color: #f1f1f1;
+    background-color: #333;
+    border-radius: 4px;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    /* Add this line to center vertically */
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Presentation */
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px 32px 24px;
+    width: 100%;
+
+}
+
+.presentation {
+    text-align: center;
+    background-color: #b9c6cc;
+    /* Changed from row to column */
+    margin-top: 64px;
+    width: 100%;
+
+}
+
+.presentation h1 {
+    font-size: 48px;
+    color: #2b2a2a;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.text-and-button {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.text-and-button p {
+    font-size: 24px;
+    color: #333;
+}
+
+.image-container {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    width: 60%;
+}
+
+.text-and-button {
+    width: 40%;
+    /* Adjust the width if needed */
+}
+
+/* information */
+.information {
+    color: #333;
+    width: 100%;
+    /* Add this line */
+    margin: 0;
+    padding: auto;
+
+}
+
+.information h2 {
+    font-size: 32px;
+}
+
+
+.practice {
+    flex-direction: column;
+    width: 60%;
+    display: flex;
+    margin-right: 24px;
+    width: 100%;
+    /* Add this line */
+
+
+}
+
+.practice img {
+    margin-bottom: 32px;
+}
+
+.practice h2 {
+    font-size: 32px;
+
+}
+
+.column {
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    width: 100%;
+    /* Add this line */
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-color: #b9c6cc
+}
+
+.item {
+    display: flex;
+    transition: transform 0.3s;
+
+}
+
+.info {
+    padding: 16px;
+}
+
+.info h2,
+.info p,
+.info a {
+    margin: 8px;
+}
+
+.info a {
+    color: blue;
+}
+
+.item {
+    flex-direction: row;
+    display: flex;
+    padding: 16px;
+}
+
+/* learning */
+
+.learning {
+    justify-content: center;
+    background-color: #b9c6cc;
+    color: #333;
+    flex-direction: column;
+    display: flex;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    width: 100%;
+    /* Add this line */
+
+}
+
+.learning h2 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    width: 100%;
+    /* Add this line */
+
+}
+
+.section {
+    background-color: #fffdfd;
+    margin-right: 32px;
+}
+
+.section p,
+section h3 {
+    margin: 16px;
+}
+
+.section image {
+    margin-bottom: 16px;
+}
+
+
+
+/* thesis */
+
+.thesis {
+    justify-content: center;
+    color: #333;
+    flex-direction: column;
+    display: flex;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    width: 100%;
+    /* Add this line */
+
+}
+
+.thesis h2 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.thesis video {
+    display: flex;
+    width: 60%;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    /* Add this line */
+    display: flex;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+
+@media screen and (max-width: 895px) {
+
+    /* header */
+    .container .about {
+        display: none;
+    }
+
+    .container .title {
+        display: none;
+    }
+
+    .icon img {
+        height: 50px;
+        width: 50px;
+        transition: transform 0.3s ease;
+    }
+
+    .icon img {
+        height: 50px;
+        width: 50px;
+        transition: transform 0.3s ease;
+    }
+
+
+    .icon img:hover {
+        transform: scale(1.2);
+    }
+
+    /* Presentation */
+
+    .flex-container {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-container .image {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-and-button {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Information */
+
+    .mobile {
+        display: none;
+    }
+
+    .practice {
+        display: none;
+    }
+
+    .column .item {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .mobile {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column {
+        width: 100%;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .item {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .item .info {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    /* learning */
+    .learning {
+        display: none;
+    }
+
+    .learning-mobile {
+        padding-top: 8px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+
+    }
+
+    .section-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        justify-content: center;
+        background-color: #b9c6cc;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    /* thesis */
+    .thesis {
+        width: 100%;
+    }
+
+    .thesis .column {
+        display: none;
+    }
+
+    .thesis video {
+        width: 100%;
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 895px) {
+    .icon {
+        display: none;
+    }
+
+    .image-container {
+        width: 60%;
+    }
+
+    .text-and-button {
+        width: 40%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .learning-mobile {
+        display: none;
+    }
+}
